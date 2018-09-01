@@ -1,0 +1,22 @@
+{
+  "booking": "Booking",
+  "booking.day": "Booking day",
+  "booking.reference": "Reference",
+  "transportation.flight": "Flights",
+  "transportation.departure.date": "Departure Date",
+  "transportation.arrival.date": "Arrival Date",
+  "transportation.flight.number": "Flight Number",
+  "transportation.flight.carrier": "Flight Carrier",
+  "transportation.flight.luggage": "Luggage",
+  "transportation.flight.class": "Class",
+  "transportation.flight.infos": "Departure and arrival times are always expressed in local time.",
+  "hotel": "Hotel",
+  "date": "Date",
+  "passengers": "Passengers",
+  "passengers.civility": "Civility",
+  "passengers.mister": "Mr.",
+  "passengers.miss": "Ms.",
+  "passengers.firstname": "First Name",
+  "passengers.lastname": "Last Name",
+  "passengers.birthdate": "Birth Date"
+}

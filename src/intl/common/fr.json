@@ -1,0 +1,22 @@
+{
+  "booking": "Réservation",
+  "booking.day": "Date de réservertion",
+  "booking.reference": "Numéro de dossier",
+  "transportation.flight": "Vols",
+  "transportation.departure.date": "Date de départ",
+  "transportation.arrival.date": "Date d'arrivée",
+  "transportation.flight.number": "N° de vol",
+  "transportation.flight.carrier": "Compagnie",
+  "transportation.flight.luggage": "Bagage",
+  "transportation.flight.class": "Classe",
+  "transportation.flight.infos": "Les horaires de départ et d'arrivée sont toujours exprimés en heure locale.",
+  "hotel": "Hôtel",
+  "date": "Date",
+  "passengers": "Passagers",
+  "passengers.civility": "Civilité",
+  "passengers.mister": "M.",
+  "passengers.miss": "Mme.",
+  "passengers.firstname": "Prénom",
+  "passengers.lastname": "Nom",
+  "passengers.birthdate": "Date de naissance"
+}

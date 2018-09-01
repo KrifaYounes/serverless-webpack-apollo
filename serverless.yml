@@ -1,0 +1,27 @@
+service: customer-docjs-server-express
+
+plugins:
+  - serverless-webpack
+  - serverless-offline
+
+custom:
+  webpack:
+    webpackConfig: ./webpack.config.js
+    includeModules: true
+    forceInclude:
+      - react-apollo
+    packager: 'yarn'
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: eu-west-1
+
+functions:
+  api:
+    handler: lambda.handler
+    events:
+      - http: ANY /
+      - http: 'ANY {proxy+}'
+      - cors: true
