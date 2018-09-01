@@ -1,15 +1,11 @@
 #############################################
-#         PERFECT STAY 
-#############################################
-
-
-# CONFIGURATION
-
 # START LOCAL SERVER
 
 - yarn start 
+- install dependency : yarn 
 - http://localhost:3000/
-
+- deploy aws : yarn deploy
+- deploy offline : yarn offline
 # DEPLOY AWS LAMBDA DEV
 
 - installer python et aws cli
@@ -22,12 +18,5 @@ Dans le fichier credentials rajouter :
 aws_access_key_id = XXXXXXX
 aws_secret_access_key = XXXXXX
 
-- Pour deployer sur l'environnement AWS de dev
-    - installer node js et serverless : npm install -g serverless
-    - configurer le fichier serverless.yml à la racine du project
-    - rajouter le répertoire .serverless dans gitignore
-    - lancer la commande   : serverless deploy 
-
-# LIVRAISON/CONFIGURATION PRODUCTION 
 
 
